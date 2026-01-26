@@ -1,1 +1,1 @@
-# Security-Log-Analyzer
+# Cowrie Honeypot Configuration
