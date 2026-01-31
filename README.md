@@ -1,1 +1,0 @@
-# Cowrie Honeypot Configuration
