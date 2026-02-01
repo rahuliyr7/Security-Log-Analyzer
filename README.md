@@ -39,7 +39,7 @@ This setup ensures attackers interact only with the honeypot while legitimate ad
 
 ## Authentication Method
 
-- HoneyPotAuthRandom is used to randomly allow login after a number of failed attempts
+- Configured to accept all login attempts (HoneyPotAuthAlways), which lets me capture both the credentials attackers try and the commands they run after they think they've successfully broken in.
 - This approach makes the honeypot appear like a poorly secured real system
 
 UserDB authentication was tested but resulted in SSH prompting only for a password instead of a username and password combination. This issue is still under investigation and may be related to Cowrie’s SSH handling.
