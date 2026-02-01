@@ -118,8 +118,7 @@ The script prints a summary report and saves parsed login data to a CSV file.
 ## Repository Structure
 
 analyzer/  
-- log_analyzer_mine.py  
-- requirements.txt  
+- log_analyzer.py   
 
 docs/  
 - Cowrie_Honeypot_Setup.pdf  
